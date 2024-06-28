@@ -1,2 +1,2 @@
 # 002project_lp_psicologia
-Landing page para uma psicóloga... projeto em andamento
+Landing page para uma querida psicóloga... projeto em andamento
