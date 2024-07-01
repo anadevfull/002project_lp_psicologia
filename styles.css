@@ -12,7 +12,6 @@ body {
 
 .container {
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +29,7 @@ body {
 
 header {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content:space-between;
     width:87%;
     height: 150px;
@@ -42,13 +41,14 @@ header {
     width: 16rem;
     height: 60px;
     position: absolute;
-    bottom: 45px;
+    bottom: 20px;
     left: 65px;
     font-family: "Licorice", cursive;
     font-weight: 400px;
     font-style: normal;
     font-size: 70px;
     color: #9CAFAA96;
+    box-sizing: border-box;
 }
 
 .hd-name {
@@ -62,12 +62,13 @@ header {
     padding-left: 80px;
     box-sizing: border-box;
     margin-bottom: 13px;
+    padding-top: 40px;
 }
 
 .hd-menu {
     width: 30rem;
     height: 100px;
-    padding-top: 5px;
+    padding-top: 45px;
     box-sizing: border-box;
 }
 
@@ -96,16 +97,15 @@ li:hover {
     font-size: 14px;
     font-weight: 800;
     text-align: center;
-    color: #FDF8E8;
-    padding-top: 20px;
+    color: #fdf8e8;
+    border-style: none;
     box-sizing: border-box;
-    margin-bottom: 60px;
-    background-color: #28BD86;
+    background-color: #DBA683;
     transition: 0.5s;
 }
 
 .btn-wa-me-hd:hover {
-    background-color: #DBA683;
+    background-color: #9CAFAA;
 }
 
 /*---------- section1 ----------*/
@@ -121,13 +121,13 @@ li:hover {
 
 main {
     width: 87vw;
-    height: 450px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/*---------- content section1 ----------*/
+/*---------- box left ----------*/
 
 .aside-left {
     width: 50%;
@@ -149,7 +149,7 @@ h1 {
 }
 
 .txt-h2 {
-    color: #DBA683;
+    color: #9CAFAA;
     font-size: 17px;
 }
 
@@ -157,34 +157,27 @@ h1 {
     height: 40px;
     display: flex;
     align-items: end;
-    color: #36403A;
-    font-size: 12px;
-    
-}
-.article-btn {
-    width: 260px;
-    height: 90px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
+    color: #36403a88;
+    font-size: 12px;    
 }
 
-.btn-wa-me {
+.btn-wa-me-hd {
     width: 16rem;
     height: 53px;
     font-size: 14px;
     font-weight: 800;
     text-align: center;
-    color: #FDF8E8;
-    padding-top: 20px;
+    color: #fdf8e8;
+    border-style: none;
     box-sizing: border-box;
-    background-color: #28BD86;
+    background-color: #DBA683;
     transition: 0.5s;
 }
 
-.btn-wa-me:hover {
-    background-color: #DBA683;
+.btn-wa-me-hd:hover {
+    background-color: #9CAFAA;
 }
+
 
 /*---------- box right ----------*/
 
@@ -198,12 +191,116 @@ h1 {
 
 .container-img {
     width: 80%;
-    height: 110%;
+    height: 130%;
     display: flex;
     justify-content: flex-end;
     position: absolute;
+    background-color: #9CAFAA;
+}
+
+/*---------- section2 ----------*/
+
+.div-section-2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color:#36403a;
+    
+}
+
+.article-sec2-left {
+    width: 40%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container-img-sec2-left {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDF8E8;
+}
+
+.img-sec2 {
+    background-size: contain;
+}
+
+.article-sec2-right {
+    width: 40%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-sec2-h3 {
+    width: 100%;
+    text-align: start;
+    margin-top: 150px;
+    color: #DBA683;
+}
+
+#article-sec2-p {
+    text-align: start;
+    margin-top: 70px;
+    line-height: 2;
+    color:#D6DAC8;
+}
+
+/*---------- section3 ----------*/
+
+
+.div-section-3 {
+    width: 100%;
+    height: 100px;
     background-color: #DBA683;
 }
+
+.article-sec3-left {
+    width: 87vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 90px;
+}
+
+.section3-h1 {
+    width: 80%;
+    color: #F1F4F3;
+    font-size: 40px;
+}
+
+.btn-wa-me-sec-3 {
+    width: 16rem;
+    height: 53px;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #fdf8e8;
+    border-style: none;
+    box-sizing: border-box;
+    color: #DBA683;
+    transition: 0.5s;
+}
+
+
+/*---------- section4 ----------*/
+
+.div-section-4 {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.div-section-4-line {
+    width: 100%;
+    height: 600px;
+    background-color:#f4f5f0;
+}
+
 
 
 
