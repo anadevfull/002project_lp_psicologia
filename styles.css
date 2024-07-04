@@ -191,19 +191,13 @@ h1 {
 }
 
 .container-img {
-    width: 80%;
+    width: 78%;
     height: 130%;
     display: flex;
     justify-content: center;
     position: absolute;
-    background-color: #9CAFAA;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-
-.img-section-1 {
-    width: 90%;
-    height: 90%;
+    background-image: url(./assets/foto6.jpg);
+    background-position: 50% 50%;
 }
 
 /*---------- section2 ----------*/
