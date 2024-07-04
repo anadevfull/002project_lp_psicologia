@@ -91,6 +91,10 @@ li:hover {
     color: #DBA683;
 }
 
+a button {
+    text-decoration: none;
+}
+
 .btn-wa-me-hd {
     width: 16rem;
     height: 53px;
@@ -162,7 +166,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.btn-wa-me-hd {
+#btn-wa-me-hd {
     width: 16rem;
     height: 53px;
     font-size: 14px;
@@ -175,7 +179,7 @@ h1 {
     transition: 0.5s;
 }
 
-.btn-wa-me-hd:hover {
+#btn-wa-me-hd:hover {
     background-color: #9CAFAA;
 }
 
@@ -271,12 +275,12 @@ h1 {
 }
 
 .section3-h1 {
-    width: 80%;
+    width: 100%;
     color: #DBA683;
     font-size: 40px;
 }
 
-.btn-wa-me-sec-3 {
+#btn-wa-me-sec-3 {
     width: 16rem;
     height: 53px;
     font-size: 14px;
@@ -289,8 +293,7 @@ h1 {
     transition: 0.5s;
 }
 
-
-.btn-wa-me-sec-3:hover {
+#btn-wa-me-sec-3:hover {
     background-color: #9CAFAA;
 }
 
